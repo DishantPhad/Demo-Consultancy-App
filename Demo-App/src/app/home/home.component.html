@@ -1,27 +1,96 @@
+<header>
+  <mat-toolbar color="primary">
 
-<mat-toolbar>
-    
-    <!-- <span>Demo App</span> -->
-    <span>
-        <img src="/Demo-App/src/assets/logo.jpg" alt="logo">
-        </span>
-    <span class="example-spacer"></span>
+    <!-- <span class="example-spacer"></span> -->
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-        <mat-icon>home</mat-icon>
-      </button>
-      <span>Home</span>
-    <li>
-        <ul>About us</ul>
-        <ul>Jobs</ul>
-        <ul>Clients </ul>
-        <ul>Employees </ul>
-        <ul>Contact us</ul>
-    </li>
-   <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-      <mat-icon>favorite</mat-icon>
+      <mat-icon class="white">home</mat-icon>
     </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <mat-icon>share</mat-icon>
-    </button> -->
-    
+    <span class="white">Home</span>
+    <li>
+      <ul> <a class="white" href="#">About us</a></ul>
+      <ul> <a class="white" href="#">Jobs</a></ul>
+      <ul> <a class="white" href="#">Clients</a></ul>
+      <ul> <a class="white" href="#">Employees </a></ul>
+      <ul> <a class="white" href="#">Contact us</a></ul>
+    </li>
+
   </mat-toolbar>
+</header>
+<main>
+
+  
+<div class="main">
+  <mat-form-field class="search-bar" appearance="outline">
+    <mat-label> <em> I am Looking for ..</em></mat-label>
+    <input matInput placeholder="Enter Job Description">
+    <mat-icon matSuffix>search</mat-icon>
+    
+  </mat-form-field>
+    <!-- <button class="search-button" mat-stroked-button>Search</button> -->
+    <button class="search-button" mat-raised-button color="primary">Search</button>
+  
+  </div>
+ <div>
+    <mat-radio-group class="radio" aria-label="Select an option">
+     <mat-radio-button value="Full Time">Full Time</mat-radio-button>
+      <mat-radio-button value="Part Time">Part Time/Casual/Freelance</mat-radio-button>
+    </mat-radio-group>
+
+    <mat-form-field>
+      <mat-label>Select your location</mat-label>
+      <mat-select>
+        <mat-option value="Pune">Pune</mat-option>
+        <mat-option value="Mumbai">Mumbai</mat-option>
+        <mat-option value="Banglore">Banglore</mat-option>
+        <mat-option value="Hyderabad">Hyderabad</mat-option>
+      </mat-select>
+    </mat-form-field>
+    
+  </div>
+  <div class="RegisterButton">
+  <button class="search-button" mat-raised-button color="primary">Register</button>
+</div>
+  <div>
+
+  </div>
+<hr class="twohr">
+<div class="mid-content">
+
+  <span><em style="font-size: large;">we're leaders in</em></span>
+  <h2>Creative Digital Recruitment</h2>
+   <hr class="mid-line">
+   <br>
+  
+   <span >
+   <pre><p class="pre-text"> Based in Surry Hills, the creative Hub of Sydney we are surrounded by creativity 
+               and that reflects on the type of jobs we recruit for.</p></pre>
+   </span>
+
+<br>
+
+<button class="mid-button" mat-stroked-button color="primary" style="border: 3px solid blue;">Find out more about us</button>
+
+<hr class="twohr">
+
+</div>
+
+</main>
+<footer>
+<div class="footerdiv">
+
+  <label>Subscribe to our Job Seeker Mailing List</label>
+  <br>
+  <br>
+  <mat-form-field class="footermailbox" appearance="outline">
+    <em><input matInput placeholder="Enter you Email Address"></em>
+    <mat-icon matSuffix>email</mat-icon>
+  </mat-form-field>
+</div>
+
+<div>
+  <pre><p>  Copyright © 2014 Two Bytes Consulting.<b>Terms & Policies</b></p></pre>
+
+ 
+</div>
+
+</footer>

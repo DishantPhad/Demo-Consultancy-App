@@ -14,11 +14,69 @@
     white-space: nowrap;
   }
 
-  mat-toolbar{
-    background-color: rgb(50, 93, 172);
-  }
-  
   img{
     height: 20px;
     width: 40px;
   }
+
+  .white{
+    color:white;
+    text-decoration: none;
+  }
+  main{
+    text-align: center;
+    margin-top: 108px;
+  }
+
+  .radio{
+ 
+    margin-right: 25px;
+    margin-left: -50px;
+  }
+
+  full-width{
+    width: 100%;
+  }
+
+  .search-bar{
+    width: 535px;
+  }
+  .search-button{
+    margin-left: 30px;
+  }
+
+  .mid-content{
+    
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 35px;
+  }
+  .mid-line{
+
+   width: 59px;
+    
+    border: 3px solid blue;
+    
+  }
+  .pre-text{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ .mid-button{
+  border-width: 3px ;
+  margin-bottom: 35px;
+ 
+ }
+ .twohr{
+  border:2px solid blue;
+ }
+ .footerdiv{
+  /* background-color: black; */
+  text-align: center;
+ }
+ .footermailbox{
+  width: 300px;
+ }
+ .RegisterButton{
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
