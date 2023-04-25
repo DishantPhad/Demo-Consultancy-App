@@ -1,0 +1,24 @@
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  li{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  mat-toolbar{
+    background-color: rgb(50, 93, 172);
+  }
+  
+  img{
+    height: 20px;
+    width: 40px;
+  }
