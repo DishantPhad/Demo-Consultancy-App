@@ -11,13 +11,15 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSelectModule} from '@angular/material/select';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatInputModule} from '@angular/material/input';
-
+import {MatDialogModule} from '@angular/material/dialog';
+import { RegistrationFormComponent } from './registration-form/registration-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    RegistrationFormComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,9 @@ import {MatInputModule} from '@angular/material/input';
     MatButtonModule,
     MatSelectModule,
     MatRadioModule,
-    MatInputModule
+    MatInputModule,
+    MatDialogModule
+   
    
     
   ],

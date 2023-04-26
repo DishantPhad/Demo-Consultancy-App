@@ -1,0 +1,59 @@
+
+  <form >
+     <h2>Registration form</h2>
+   <div>
+      <mat-label>Profile</mat-label>
+      <input type="file" name="profileInput" required  accept=".jpg,.png,.jpeg" #profileInput >
+      <button  mat-icon-button >
+      </button>
+   </div>
+   <br>
+   <br> 
+   <div>
+      <mat-label>First Name</mat-label>
+      <input type="text" name="firstNameInput" required matInput>
+   </div>
+  <br>
+  <br>
+   <div>
+      <mat-label>Last Name</mat-label>
+      <input type="text" name="lastNameInput" required  matInput>
+    </div>
+  <br>
+  <br>
+   <div>
+      <mat-label>Phone Number</mat-label>
+      <input type="tel" name="phoneNumberInput" required  matInput>
+    </div>
+  <br>
+  <br>
+   <div>
+      <mat-label>Age</mat-label>
+      <input type="range" name="ageInput"  min="1" max="100" step="1" thumbLabel >
+    </div>
+  <br>
+  <br>
+   <div>
+      <mat-label>State</mat-label>
+      <input type="text" name="stateInput" required  matInput>
+    </div>
+  <br>
+  <br>
+   <div>
+      <mat-label>Country</mat-label>
+      <input type="text" name="countryInput" required  matInput>
+  </div>
+  <br>
+  <br>
+   <div> 
+      <mat-label>Address</mat-label>
+      <textarea name="addressInput" required  matInput></textarea>
+   </div>
+  <br>
+  <br>
+    <div class="buttons">
+      <button type="submit" mat-raised-button color="primary">Submit</button>
+      <button type="button" mat-button >Cancel</button>
+    </div>
+  </form>
+  
